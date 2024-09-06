@@ -1,258 +1,614 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid b0b0e099-14cc-4b4e-b072-c40486e5667b)
-
-  (paper "A4")
-
-  (title_block
-    (title "CANBoard-Base")
-    (date "2024-07-13")
-    (rev "v1")
-    (company "Dingo Electronics")
-    (comment 1 "github.com/corygrant")
-    (comment 2 "Cory Grant")
-  )
-
-  (lib_symbols
-    (symbol "Device:Polyfuse_Small" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "F" (at -1.905 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Polyfuse_Small" (at 1.905 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 1.27 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resettable fuse, polymeric positive temperature coefficient, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "*polyfuse* *PTC*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Polyfuse_Small_0_1"
-        (rectangle (start -0.508 1.27) (end 0.508 -1.27)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 1.27)
-            (xy -1.016 0.762)
-            (xy 1.016 -0.762)
-            (xy 1.016 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Polyfuse_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.635)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.635)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (wire (pts (xy 114.3 50.8) (xy 127 50.8))
-    (stroke (width 0) (type default))
-    (uuid 254d69c6-302f-48c7-b606-6e75b3eeefaa)
-  )
-  (wire (pts (xy 132.08 50.8) (xy 139.7 50.8))
-    (stroke (width 0) (type default))
-    (uuid 5c91c724-ccfe-4d0c-a892-cd4bb1fb9018)
-  )
-  (wire (pts (xy 114.3 76.2) (xy 127 76.2))
-    (stroke (width 0) (type default))
-    (uuid 7723af7c-a73d-4b46-8410-0a049f458215)
-  )
-  (wire (pts (xy 132.08 63.5) (xy 139.7 63.5))
-    (stroke (width 0) (type default))
-    (uuid 7e9668dd-a2ff-4add-bb83-33c2466feda9)
-  )
-  (wire (pts (xy 114.3 88.9) (xy 127 88.9))
-    (stroke (width 0) (type default))
-    (uuid a3d4b87b-b463-425a-83dd-2d09f50fdbd4)
-  )
-  (wire (pts (xy 132.08 76.2) (xy 139.7 76.2))
-    (stroke (width 0) (type default))
-    (uuid a678b2aa-a2a9-42c5-8175-7bbb3650ff30)
-  )
-  (wire (pts (xy 114.3 63.5) (xy 127 63.5))
-    (stroke (width 0) (type default))
-    (uuid e34417f0-815e-4203-8e73-a94ebed766a0)
-  )
-  (wire (pts (xy 132.08 88.9) (xy 139.7 88.9))
-    (stroke (width 0) (type default))
-    (uuid ea0c4859-f379-4aa5-bd91-5e0f62972de5)
-  )
-
-  (hierarchical_label "DO2_RAW" (shape input) (at 114.3 63.5 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 1b17b8b6-0339-442c-8264-2b68e195a5a8)
-  )
-  (hierarchical_label "DO4_RAW" (shape input) (at 114.3 88.9 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2dce0c20-2085-4ae5-95b6-4766f8fe8cea)
-  )
-  (hierarchical_label "DO1_RAW" (shape input) (at 114.3 50.8 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3436eea7-7c59-4762-9834-3315bf4df22c)
-  )
-  (hierarchical_label "DO2" (shape input) (at 139.7 63.5 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 598a81b5-8409-41fd-8be3-2ab2f9cf3ff3)
-  )
-  (hierarchical_label "DO3" (shape input) (at 139.7 76.2 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b0baeca7-a0b7-4c1f-9efa-6245aa3d3e2c)
-  )
-  (hierarchical_label "DO4" (shape input) (at 139.7 88.9 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid bbec2b41-f9e8-4acb-9976-390bf87cf0e2)
-  )
-  (hierarchical_label "DO3_RAW" (shape input) (at 114.3 76.2 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid cceeedf8-e9d2-4afb-a847-c551d090c40e)
-  )
-  (hierarchical_label "DO1" (shape input) (at 139.7 50.8 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid db5fcb50-3aeb-4968-bff8-e77b497f9092)
-  )
-
-  (symbol (lib_id "Device:Polyfuse_Small") (at 129.54 76.2 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0043d504-bf71-4720-a02c-9e4288e6a35c)
-    (property "Reference" "F1" (at 129.54 71.1667 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0.5A" (at 129.54 73.5909 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 134.62 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "~" (at 129.54 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ac9991bf-475a-4019-8f17-23bc5807603e))
-    (pin "2" (uuid aa9f9452-b0ed-47c0-b951-2230cd9328c0))
-    (instances
-      (project "CANBoard-Base"
-        (path "/ae3e8b14-da7b-493c-bdec-064ae45bef7a"
-          (reference "F1") (unit 1)
-        )
-        (path "/ae3e8b14-da7b-493c-bdec-064ae45bef7a/039827fb-48d4-4174-90f4-690b36862427"
-          (reference "F4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Polyfuse_Small") (at 129.54 88.9 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 595239b5-c4dd-40e0-86b4-1a8706101cf2)
-    (property "Reference" "F1" (at 129.54 83.8667 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0.5A" (at 129.54 86.2909 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 134.62 87.63 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "~" (at 129.54 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7b9573dc-5c72-4353-8624-65af6bb28b1b))
-    (pin "2" (uuid a517b90b-22c3-458f-a03a-c502a5cd6c1b))
-    (instances
-      (project "CANBoard-Base"
-        (path "/ae3e8b14-da7b-493c-bdec-064ae45bef7a"
-          (reference "F1") (unit 1)
-        )
-        (path "/ae3e8b14-da7b-493c-bdec-064ae45bef7a/039827fb-48d4-4174-90f4-690b36862427"
-          (reference "F5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Polyfuse_Small") (at 129.54 63.5 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bcd8d269-fca3-4e46-a8c7-1e076f826d47)
-    (property "Reference" "F1" (at 129.54 58.4667 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0.5A" (at 129.54 60.8909 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 134.62 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "~" (at 129.54 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1547c218-7eb4-4c52-8407-fb46fceff972))
-    (pin "2" (uuid e15b48df-a65a-483a-8539-0ed6213afaf6))
-    (instances
-      (project "CANBoard-Base"
-        (path "/ae3e8b14-da7b-493c-bdec-064ae45bef7a"
-          (reference "F1") (unit 1)
-        )
-        (path "/ae3e8b14-da7b-493c-bdec-064ae45bef7a/039827fb-48d4-4174-90f4-690b36862427"
-          (reference "F3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Polyfuse_Small") (at 129.54 50.8 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c9d352c5-71e7-468e-9f4e-4a6ae70c449c)
-    (property "Reference" "F1" (at 129.54 45.7667 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0.5A" (at 129.54 48.1909 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 134.62 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "~" (at 129.54 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cca25f85-8d28-4ba3-94a2-0a78449ba53c))
-    (pin "2" (uuid 1d776e34-c383-4563-bb38-d24bfbb2807c))
-    (instances
-      (project "CANBoard-Base"
-        (path "/ae3e8b14-da7b-493c-bdec-064ae45bef7a"
-          (reference "F1") (unit 1)
-        )
-        (path "/ae3e8b14-da7b-493c-bdec-064ae45bef7a/039827fb-48d4-4174-90f4-690b36862427"
-          (reference "F2") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b0b0e099-14cc-4b4e-b072-c40486e5667b")
+	(paper "A4")
+	(title_block
+		(title "CANBoard-Base")
+		(date "2024-07-13")
+		(rev "v1")
+		(company "Dingo Electronics")
+		(comment 1 "github.com/corygrant")
+		(comment 2 "Cory Grant")
+	)
+	(lib_symbols
+		(symbol "Device:Polyfuse_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse_Small"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_Small_0_1"
+				(rectangle
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 114.3 50.8) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254d69c6-302f-48c7-b606-6e75b3eeefaa")
+	)
+	(wire
+		(pts
+			(xy 132.08 50.8) (xy 139.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c91c724-ccfe-4d0c-a892-cd4bb1fb9018")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7723af7c-a73d-4b46-8410-0a049f458215")
+	)
+	(wire
+		(pts
+			(xy 132.08 63.5) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9668dd-a2ff-4add-bb83-33c2466feda9")
+	)
+	(wire
+		(pts
+			(xy 114.3 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d4b87b-b463-425a-83dd-2d09f50fdbd4")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 139.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a678b2aa-a2a9-42c5-8175-7bbb3650ff30")
+	)
+	(wire
+		(pts
+			(xy 114.3 63.5) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34417f0-815e-4203-8e73-a94ebed766a0")
+	)
+	(wire
+		(pts
+			(xy 132.08 88.9) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0c4859-f379-4aa5-bd91-5e0f62972de5")
+	)
+	(hierarchical_label "DO2_RAW"
+		(shape input)
+		(at 114.3 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b17b8b6-0339-442c-8264-2b68e195a5a8")
+	)
+	(hierarchical_label "DO4_RAW"
+		(shape input)
+		(at 114.3 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2dce0c20-2085-4ae5-95b6-4766f8fe8cea")
+	)
+	(hierarchical_label "DO1_RAW"
+		(shape input)
+		(at 114.3 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3436eea7-7c59-4762-9834-3315bf4df22c")
+	)
+	(hierarchical_label "DO2"
+		(shape input)
+		(at 139.7 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "598a81b5-8409-41fd-8be3-2ab2f9cf3ff3")
+	)
+	(hierarchical_label "DO3"
+		(shape input)
+		(at 139.7 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0baeca7-a0b7-4c1f-9efa-6245aa3d3e2c")
+	)
+	(hierarchical_label "DO4"
+		(shape input)
+		(at 139.7 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbec2b41-f9e8-4acb-9976-390bf87cf0e2")
+	)
+	(hierarchical_label "DO3_RAW"
+		(shape input)
+		(at 114.3 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cceeedf8-e9d2-4afb-a847-c551d090c40e")
+	)
+	(hierarchical_label "DO1"
+		(shape input)
+		(at 139.7 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db5fcb50-3aeb-4968-bff8-e77b497f9092")
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 129.54 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0043d504-bf71-4720-a02c-9e4288e6a35c")
+		(property "Reference" "F4"
+			(at 129.54 71.1667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.5A"
+			(at 129.54 73.5909 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac9991bf-475a-4019-8f17-23bc5807603e")
+		)
+		(pin "2"
+			(uuid "aa9f9452-b0ed-47c0-b951-2230cd9328c0")
+		)
+		(instances
+			(project "CANBoard-Base"
+				(path "/ae3e8b14-da7b-493c-bdec-064ae45bef7a/039827fb-48d4-4174-90f4-690b36862427"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 129.54 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "595239b5-c4dd-40e0-86b4-1a8706101cf2")
+		(property "Reference" "F5"
+			(at 129.54 83.8667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.5A"
+			(at 129.54 86.2909 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b9573dc-5c72-4353-8624-65af6bb28b1b")
+		)
+		(pin "2"
+			(uuid "a517b90b-22c3-458f-a03a-c502a5cd6c1b")
+		)
+		(instances
+			(project "CANBoard-Base"
+				(path "/ae3e8b14-da7b-493c-bdec-064ae45bef7a/039827fb-48d4-4174-90f4-690b36862427"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 129.54 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcd8d269-fca3-4e46-a8c7-1e076f826d47")
+		(property "Reference" "F3"
+			(at 129.54 58.4667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.5A"
+			(at 129.54 60.8909 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1547c218-7eb4-4c52-8407-fb46fceff972")
+		)
+		(pin "2"
+			(uuid "e15b48df-a65a-483a-8539-0ed6213afaf6")
+		)
+		(instances
+			(project "CANBoard-Base"
+				(path "/ae3e8b14-da7b-493c-bdec-064ae45bef7a/039827fb-48d4-4174-90f4-690b36862427"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 129.54 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9d352c5-71e7-468e-9f4e-4a6ae70c449c")
+		(property "Reference" "F2"
+			(at 129.54 45.7667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.5A"
+			(at 129.54 48.1909 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 134.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cca25f85-8d28-4ba3-94a2-0a78449ba53c")
+		)
+		(pin "2"
+			(uuid "1d776e34-c383-4563-bb38-d24bfbb2807c")
+		)
+		(instances
+			(project "CANBoard-Base"
+				(path "/ae3e8b14-da7b-493c-bdec-064ae45bef7a/039827fb-48d4-4174-90f4-690b36862427"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
