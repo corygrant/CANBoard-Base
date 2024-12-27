@@ -493,7 +493,7 @@
       "plot": "gerbers/",
       "pos_files": "gerbers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Export/V1/CANBoard-Base_v1.step",
       "svg": "",
       "vrml": ""
     },
