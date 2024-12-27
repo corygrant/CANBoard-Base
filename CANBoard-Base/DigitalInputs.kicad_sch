@@ -2389,6 +2389,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_PN" "C384887"
+			(at 185.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcdf364e-d458-42ce-a439-833d3ce1f6cb")
 		)
@@ -2471,6 +2480,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_PN" "C49678"
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01f51a3a-a6bc-4942-979f-a52ff9022fba")
 		)
@@ -2531,6 +2549,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C17673"
 			(at 111.76 123.19 0)
 			(effects
 				(font
@@ -2609,6 +2636,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_PN" "C49678"
+			(at 157.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "739dd9b0-1443-4217-99b9-feed1954a96d")
 		)
@@ -2669,6 +2705,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 100.33 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C17673"
 			(at 100.33 83.82 0)
 			(effects
 				(font
@@ -2747,6 +2792,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_PN" "C49678"
+			(at 146.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f20b0a41-393c-4419-ab3e-e9ec81bb990b")
 		)
@@ -2817,6 +2871,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_PN" "C49678"
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b39e1abc-b4a8-4423-9812-063083915482")
 		)
@@ -2877,6 +2940,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 111.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C17673"
 			(at 111.76 43.18 0)
 			(effects
 				(font
@@ -3019,6 +3091,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_PN" "C17673"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa5f8b6c-320b-4251-ac8f-9c186a8ec2ff")
 		)
@@ -3079,6 +3160,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C17673"
 			(at 111.76 127 0)
 			(effects
 				(font
@@ -3149,6 +3239,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C49678"
 			(at 157.48 68.58 0)
 			(effects
 				(font
@@ -3293,6 +3392,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_PN" "C49678"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09a41207-712f-4c00-b05c-01e186cc4978")
 		)
@@ -3353,6 +3461,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 111.76 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C17673"
 			(at 111.76 46.355 0)
 			(effects
 				(font
@@ -3495,6 +3612,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_PN" "C384887"
+			(at 185.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53e55f13-a5af-494e-b0f5-3123bf009b78")
 		)
@@ -3575,6 +3701,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_PN" "C17673"
+			(at 111.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dce6ab1b-13da-4e91-8d48-5386207ac8e0")
 		)
@@ -3637,6 +3772,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 146.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C49678"
 			(at 146.05 119.38 0)
 			(effects
 				(font
@@ -3715,6 +3859,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_PN" "C49678"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e15cc16d-ceac-4162-b835-71661ec963e8")
 		)
@@ -3775,6 +3928,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C17673"
 			(at 111.76 88.9 0)
 			(effects
 				(font
