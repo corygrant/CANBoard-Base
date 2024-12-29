@@ -18364,8 +18364,20 @@
 			(uuid "a4e67887-5100-4004-bfd0-d756026678db")
 		)
 		(model "C:/Users/cgrant/Dropbox/KiCad/Libraries/CANBoard/CANBoard_v2.step"
+			(hide yes)
 			(offset
 				(xyz -156.2 100.7 1.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${CGRANTKICADLIBRARIES}/CANBoard/CANBoard_Headers_v2.step"
+			(offset
+				(xyz -156.2 100.7 11.049)
 			)
 			(scale
 				(xyz 1 1 1)
