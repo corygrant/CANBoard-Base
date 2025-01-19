@@ -13,7 +13,7 @@
 		(comment 2 "Cory Grant")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Operational:LM324"
+		(symbol "Amplifier_Operational:MCP6004"
 			(pin_names
 				(offset 0.127)
 			)
@@ -29,7 +29,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LM324"
+			(property "Value" "MCP6004"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
 				(at 1.27 5.08 0)
 				(effects
 					(font
@@ -56,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
 				(at 0 0 0)
 				(effects
 					(font
@@ -91,7 +91,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM324_1_1"
+			(symbol "MCP6004_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -159,7 +159,7 @@
 					)
 				)
 			)
-			(symbol "LM324_2_1"
+			(symbol "MCP6004_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -227,7 +227,7 @@
 					)
 				)
 			)
-			(symbol "LM324_3_1"
+			(symbol "MCP6004_3_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -295,7 +295,7 @@
 					)
 				)
 			)
-			(symbol "LM324_4_1"
+			(symbol "MCP6004_4_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -363,7 +363,7 @@
 					)
 				)
 			)
-			(symbol "LM324_5_1"
+			(symbol "MCP6004_5_1"
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -3971,7 +3971,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM324")
+		(lib_id "Amplifier_Operational:MCP6004")
 		(at 245.11 27.94 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -3981,7 +3981,7 @@
 		(fields_autoplaced yes)
 		(uuid "1746489f-0bcb-4f61-804b-461b3994bbc4")
 		(property "Reference" "U3"
-			(at 243.205 26.7279 0)
+			(at 243.205 26.7278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +3989,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM324"
+		(property "Value" "MCP6004"
 			(at 243.205 29.1521 0)
 			(effects
 				(font
@@ -4007,7 +4007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
 			(at 246.38 22.86 0)
 			(effects
 				(font
@@ -4016,7 +4016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
 			(at 245.11 27.94 0)
 			(effects
 				(font
@@ -4025,7 +4025,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PN" "C7942"
+		(property "JLC_PN" "C50282"
 			(at 245.11 27.94 0)
 			(effects
 				(font
@@ -4520,7 +4520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM324")
+		(lib_id "Amplifier_Operational:MCP6004")
 		(at 191.77 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4530,15 +4530,15 @@
 		(fields_autoplaced yes)
 		(uuid "3fdd9ac2-1832-46f5-bd2c-6b55883ed7ac")
 		(property "Reference" "U2"
-			(at 191.77 84.7557 0)
+			(at 191.77 84.7555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM324"
-			(at 191.77 87.1799 0)
+		(property "Value" "MCP6004"
+			(at 191.77 87.1798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
 			(at 193.04 88.9 0)
 			(effects
 				(font
@@ -4563,7 +4563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
 			(at 191.77 93.98 0)
 			(effects
 				(font
@@ -4572,7 +4572,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PN" "C7942"
+		(property "JLC_PN" "C50282"
 			(at 191.77 93.98 0)
 			(effects
 				(font
@@ -5234,7 +5234,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM324")
+		(lib_id "Amplifier_Operational:MCP6004")
 		(at 191.77 74.93 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -5244,15 +5244,15 @@
 		(fields_autoplaced yes)
 		(uuid "630c8985-0f33-49d5-b4ca-2e207c9c531f")
 		(property "Reference" "U2"
-			(at 191.77 65.7057 0)
+			(at 191.77 65.7055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM324"
-			(at 191.77 68.1299 0)
+		(property "Value" "MCP6004"
+			(at 191.77 68.1298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
 			(at 193.04 69.85 0)
 			(effects
 				(font
@@ -5277,7 +5277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
 			(at 191.77 74.93 0)
 			(effects
 				(font
@@ -5286,7 +5286,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PN" "C7942"
+		(property "JLC_PN" "C50282"
 			(at 191.77 74.93 0)
 			(effects
 				(font
@@ -5660,7 +5660,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM324")
+		(lib_id "Amplifier_Operational:MCP6004")
 		(at 215.9 27.94 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -5670,7 +5670,7 @@
 		(fields_autoplaced yes)
 		(uuid "67ca78d4-bab1-4f08-9fea-76f9895f0604")
 		(property "Reference" "U2"
-			(at 213.995 26.7279 0)
+			(at 213.995 26.7278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,7 +5678,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM324"
+		(property "Value" "MCP6004"
 			(at 213.995 29.1521 0)
 			(effects
 				(font
@@ -5696,7 +5696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
 			(at 217.17 22.86 0)
 			(effects
 				(font
@@ -5705,7 +5705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
 			(at 215.9 27.94 0)
 			(effects
 				(font
@@ -5714,7 +5714,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PN" "C7942"
+		(property "JLC_PN" "C50282"
 			(at 215.9 27.94 0)
 			(effects
 				(font
@@ -6936,7 +6936,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM324")
+		(lib_id "Amplifier_Operational:MCP6004")
 		(at 191.77 55.88 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -6946,15 +6946,15 @@
 		(fields_autoplaced yes)
 		(uuid "a515df0e-fe42-4237-84f4-86c24ef5904f")
 		(property "Reference" "U2"
-			(at 191.77 46.6557 0)
+			(at 191.77 46.6555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM324"
-			(at 191.77 49.0799 0)
+		(property "Value" "MCP6004"
+			(at 191.77 49.0798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +6970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
 			(at 193.04 50.8 0)
 			(effects
 				(font
@@ -6979,7 +6979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -6988,7 +6988,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PN" "C7942"
+		(property "JLC_PN" "C50282"
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -7049,7 +7049,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM324")
+		(lib_id "Amplifier_Operational:MCP6004")
 		(at 191.77 111.76 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -7059,15 +7059,15 @@
 		(fields_autoplaced yes)
 		(uuid "a642776e-01e1-4305-a782-c99301b13ca4")
 		(property "Reference" "U3"
-			(at 191.77 102.5357 0)
+			(at 191.77 102.5355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM324"
-			(at 191.77 104.9599 0)
+		(property "Value" "MCP6004"
+			(at 191.77 104.9598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,7 +7083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
 			(at 193.04 106.68 0)
 			(effects
 				(font
@@ -7092,7 +7092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
 			(at 191.77 111.76 0)
 			(effects
 				(font
@@ -7101,7 +7101,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PN" "C7942"
+		(property "JLC_PN" "C50282"
 			(at 191.77 111.76 0)
 			(effects
 				(font
@@ -7241,7 +7241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM324")
+		(lib_id "Amplifier_Operational:MCP6004")
 		(at 191.77 130.81 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -7251,15 +7251,15 @@
 		(fields_autoplaced yes)
 		(uuid "ad711a15-180e-4de3-9298-b121f7b96df4")
 		(property "Reference" "U3"
-			(at 191.77 121.5857 0)
+			(at 191.77 121.5855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM324"
-			(at 191.77 124.0099 0)
+		(property "Value" "MCP6004"
+			(at 191.77 124.0098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,7 +7275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
 			(at 193.04 125.73 0)
 			(effects
 				(font
@@ -7284,7 +7284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
 			(at 191.77 130.81 0)
 			(effects
 				(font
@@ -7293,7 +7293,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PN" "C7942"
+		(property "JLC_PN" "C50282"
 			(at 191.77 130.81 0)
 			(effects
 				(font
