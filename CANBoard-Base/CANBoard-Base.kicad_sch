@@ -4815,6 +4815,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digi-Key_PN" "DTM15-12PA"
+			(at 44.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c9244f1-4ecf-48e9-863a-9ab78de19f4f")
 		)
@@ -5282,6 +5291,15 @@
 			)
 		)
 		(property "JLC_PN" ""
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "DTM15-12PB"
 			(at 44.45 123.19 0)
 			(effects
 				(font

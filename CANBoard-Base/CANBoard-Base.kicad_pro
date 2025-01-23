@@ -582,7 +582,7 @@
           "group_by": false,
           "label": "Digi-Key_PN",
           "name": "Digi-Key_PN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
